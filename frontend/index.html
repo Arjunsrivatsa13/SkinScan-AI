@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkinScan AI - AI-Powered Skin Lesion Analysis</title>
+  <meta name="description" content="AI-assisted classification and Grad-CAM visual explanation for dermoscopic skin lesions powered by fine-tuned ResNet-50." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%236366f1'/><stop offset='100%' stop-color='%233b82f6'/></linearGradient></defs><rect width='24' height='24' rx='6' fill='url(%23g)'/><path d='M12 4v16M4 12h16' stroke='white' stroke-width='3.5' stroke-linecap='round'/></svg>" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Mobile Sidebar Backdrop -->
+    <div class="sidebar-backdrop" aria-hidden="true"></div>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar-container" aria-label="Sidebar Navigation"></aside>
+
+    <!-- Main App Wrapper -->
+    <div class="main-wrapper">
+      <!-- Top Header Bar -->
+      <header class="top-header" id="header-container" role="banner"></header>
+
+      <!-- Main Dynamic Content Views -->
+      <main class="main-container" id="main-view-container" role="main"></main>
+    </div>
+  </div>
+
+  <!-- Dynamic Modal Containers -->
+  <div id="modals-container"></div>
+
+  <!-- App entry point — ES module is deferred by spec, runs after DOM parsed -->
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

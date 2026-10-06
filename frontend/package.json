@@ -1,0 +1,21 @@
+{
+  "name": "skinscan-frontend",
+  "version": "1.0.0",
+  "description": "SkinScan AI - AI-Powered Skin Lesion Analysis Frontend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_interactions.js"
+  },
+  "keywords": [
+    "skinscan",
+    "dermatology",
+    "ai",
+    "resnet50",
+    "gradcam"
+  ],
+  "author": "Arjun Srivatsa",
+  "license": "MIT"
+}

@@ -1,0 +1,128 @@
+{
+  "nv": {
+    "code": "nv",
+    "label": "Melanocytic Nevus",
+    "isBenign": true,
+    "predictedCode": "nv",
+    "confidence": 0.910888671875,
+    "probabilities": {
+      "akiec": 6.649462011409923e-05,
+      "bcc": 0.0005328411352820694,
+      "bkl": 0.0009467471390962601,
+      "df": 5.223146217758767e-05,
+      "mel": 0.08685559779405594,
+      "nv": 0.910888671875,
+      "vasc": 0.0006573942955583334
+    },
+    "originalImage": "assets/samples/nv_orig.jpg",
+    "gradcamImage": "assets/samples/nv_gradcam.jpg"
+  },
+  "mel": {
+    "code": "mel",
+    "label": "Melanoma",
+    "isBenign": false,
+    "predictedCode": "vasc",
+    "confidence": 0.9987503290176392,
+    "probabilities": {
+      "akiec": 1.786118559721217e-07,
+      "bcc": 9.313625014328863e-06,
+      "bkl": 8.72070904733846e-06,
+      "df": 7.166645445977338e-07,
+      "mel": 0.0010177973890677094,
+      "nv": 0.00021298097271937877,
+      "vasc": 0.9987503290176392
+    },
+    "originalImage": "assets/samples/mel_orig.jpg",
+    "gradcamImage": "assets/samples/mel_gradcam.jpg"
+  },
+  "bcc": {
+    "code": "bcc",
+    "label": "Basal Cell Carcinoma",
+    "isBenign": false,
+    "predictedCode": "bcc",
+    "confidence": 0.6652013063430786,
+    "probabilities": {
+      "akiec": 0.14839982986450195,
+      "bcc": 0.6652013063430786,
+      "bkl": 0.02866487205028534,
+      "df": 0.04309219866991043,
+      "mel": 0.057995643466711044,
+      "nv": 0.013442792929708958,
+      "vasc": 0.04320337995886803
+    },
+    "originalImage": "assets/samples/bcc_orig.jpg",
+    "gradcamImage": "assets/samples/bcc_gradcam.jpg"
+  },
+  "bkl": {
+    "code": "bkl",
+    "label": "Benign Keratosis",
+    "isBenign": true,
+    "predictedCode": "bkl",
+    "confidence": 0.8928249478340149,
+    "probabilities": {
+      "akiec": 0.04541609436273575,
+      "bcc": 0.020622404292225838,
+      "bkl": 0.8928249478340149,
+      "df": 0.0023370226845145226,
+      "mel": 0.029339374974370003,
+      "nv": 0.008502422831952572,
+      "vasc": 0.000957836105953902
+    },
+    "originalImage": "assets/samples/bkl_orig.jpg",
+    "gradcamImage": "assets/samples/bkl_gradcam.jpg"
+  },
+  "akiec": {
+    "code": "akiec",
+    "label": "Actinic Keratoses",
+    "isBenign": false,
+    "predictedCode": "akiec",
+    "confidence": 0.9656998515129089,
+    "probabilities": {
+      "akiec": 0.9656998515129089,
+      "bcc": 0.0050020283088088036,
+      "bkl": 0.017649918794631958,
+      "df": 0.004231430124491453,
+      "mel": 0.0069707888178527355,
+      "nv": 0.00037158146733418107,
+      "vasc": 7.435979205183685e-05
+    },
+    "originalImage": "assets/samples/akiec_orig.jpg",
+    "gradcamImage": "assets/samples/akiec_gradcam.jpg"
+  },
+  "df": {
+    "code": "df",
+    "label": "Dermatofibroma",
+    "isBenign": true,
+    "predictedCode": "df",
+    "confidence": 0.9194259643554688,
+    "probabilities": {
+      "akiec": 0.00930711068212986,
+      "bcc": 0.04662546515464783,
+      "bkl": 0.0002932101197075099,
+      "df": 0.9194259643554688,
+      "mel": 0.01998715288937092,
+      "nv": 0.00405098544433713,
+      "vasc": 0.000310137023916468
+    },
+    "originalImage": "assets/samples/df_orig.jpg",
+    "gradcamImage": "assets/samples/df_gradcam.jpg"
+  },
+  "vasc": {
+    "code": "vasc",
+    "label": "Vascular Lesion",
+    "isBenign": true,
+    "predictedCode": "vasc",
+    "confidence": 0.99998939037323,
+    "probabilities": {
+      "akiec": 4.852194201987459e-10,
+      "bcc": 2.31577786280468e-07,
+      "bkl": 1.7016683173665115e-08,
+      "df": 1.903506685607681e-09,
+      "mel": 6.998671779001597e-06,
+      "nv": 3.37583924192586e-06,
+      "vasc": 0.99998939037323
+    },
+    "originalImage": "assets/samples/vasc_orig.jpg",
+    "gradcamImage": "assets/samples/vasc_gradcam.jpg"
+  }
+}
