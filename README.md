@@ -2,7 +2,7 @@
 
 AI-powered skin lesion analysis with deep learning and visual explainability.
 
-![Uploading Screenshot 2026-10-07 at 12.44.46 AM.png…]()
+<img width="1470" height="833" alt="Screenshot 2026-10-07 at 12 44 46 AM" src="https://github.com/user-attachments/assets/f77eea1c-5e47-4b9d-b5b6-b17dea304916" />
 
 
 SkinScan AI is an end-to-end skin lesion analysis platform built using **ResNet50 transfer learning** and **Grad-CAM explainability**. It classifies dermoscopic images into seven skin-lesion categories and provides visual insight into the regions that influenced the model's prediction.
